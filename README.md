@@ -1,6 +1,6 @@
 # Simple-AI
 
-```python
+```python {.line-numbers}
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("./mnist", one_hot=True)
 
