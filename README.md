@@ -1,4 +1,4 @@
-# Simple AI Intro
+# AI Intro
 
 Some of the key Libraries and Dataset used:     
 * [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) a free progarmming environment. 
