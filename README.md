@@ -1,12 +1,11 @@
 # Simple AI Intro
 
 Some of the key Libraries and Dataset used:     
+* [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) a free progarmming environment. 
 * [Tensorflow](https://en.wikipedia.org/wiki/TensorFlow) as an AI Library created by Google and can be used in Python.    
 * [Keras](https://en.wikipedia.org/wiki/Keras) Also a Python AI library, it is used on top of Tensorflow. It allows models to be created faster and more easily than with Tensorflow alone.   
 * [MNIST](https://en.wikipedia.org/wiki/MNIST_database) A collection of 70,000 handwritten digits from 0-9, it is a commonly used dataset for training neural networks.   
-MNIST: ![alt text](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png "MNIST")    
-
-* [Colab](https://colab.research.google.com/notebooks/welcome.ipynb) a free progarmming environment. 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png "MNIST")    
 
 ## Code Example
 ```python
