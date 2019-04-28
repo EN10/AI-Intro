@@ -15,19 +15,23 @@ mnist = input_data.read_data_sets("./mnist", one_hot=True)
 
 import keras
 model = keras.models.Sequential()
-# See model Image below
+# See model Image below 784 on the left and 10 on the right
 model.add(keras.layers.Dense(10, activation='softmax', input_shape=(784,)))
 
 model.compile(optimizer='adam', 
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
+# Trains the model by feeding 60,000 training images
 model.fit(mnist.train.images, mnist.train.labels,
           epochs=5)
 
+# Tests the model with 10,000 test images
 model.evaluate(mnist.test.images, mnist.test.labels)
 ```
 Model: ![alt text](https://ml4a.github.io/images/figures/mnist_1layer.png "Model")  
+[Softmax](https://en.wikipedia.org/wiki/Softmax_function)
+[Adam](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Adam)
 
 ## References
 
