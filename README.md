@@ -17,7 +17,7 @@ mnist = input_data.read_data_sets("./mnist", one_hot=True)
 
 import keras
 model = keras.models.Sequential()
-# See model Image below 784 on the left and 10 on the right
+# See model Image below, 784 pixels on the left and 10 neurons on the right
 model.add(keras.layers.Dense(10, activation='softmax', input_shape=(784,)))
 
 model.compile(optimizer='adam', 
