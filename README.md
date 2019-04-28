@@ -30,8 +30,8 @@ model.fit(mnist.train.images, mnist.train.labels,
 model.evaluate(mnist.test.images, mnist.test.labels)
 ```
 Model: ![alt text](https://ml4a.github.io/images/figures/mnist_1layer.png "Model")  
-[Softmax](https://en.wikipedia.org/wiki/Softmax_function)
-[Adam](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Adam)
+[Softmax](https://en.wikipedia.org/wiki/Softmax_function)   
+[Adam](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Adam)  
 
 ## References
 
